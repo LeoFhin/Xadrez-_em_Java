@@ -1,5 +1,9 @@
+import Tabuleiro.Posicao;
+
 public class Main {
     public static void main (String [] args) {
-        System.out.println("Ola mundo");
+        Posicao pos = new Posicao(5,5);
+
+        System.out.println(pos);
     }
 }
